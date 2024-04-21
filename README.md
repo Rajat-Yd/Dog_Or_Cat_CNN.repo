@@ -17,4 +17,4 @@
 - Dropout rate = 0.1
 - BatchNormalization of ( 1, 256, 256, 3) per image.
 # Dataset used :
-- <a href = https://www.kaggle.com/datasets/salader/dogs-vs-cats, style = text-decoration = "none">Kaggel-Dog vs Cat</a>
+- <a href = https://www.kaggle.com/datasets/salader/dogs-vs-cats>Kaggel-Dog vs Cat</a>
