@@ -6,10 +6,15 @@
 - They can also be quite effective for classifying audio, time-series, and signal data.
 - # About This CNN Model :
 - # CNN part :
-- Number of Convolutional layers used = 3
+- Number of Convolutional layers used = 3, activation = "Relu" 
 - Number of Pooling layers  = 3
 - Number of flatten layer = 1
 - # ANN part :
 - One dense layer with 128 Neurons and Relu activation.
 - one Hidden layer with 64 Neurons Relu activationn.
 - one Output layer with one Neuron Sigmoid.
+# Improvement techniques used :
+- Dropout rate = 0.1
+- BatchNormalization of ( 1, 256, 256, 3) per image.
+# Dataset used :
+- <a href = https://www.kaggle.com/datasets/salader/dogs-vs-cats, style = text-decoration = "none">Kaggel-Dog vs Cat</a>
