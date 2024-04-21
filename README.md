@@ -22,4 +22,6 @@
 - Dropout rate = 0.1
 - BatchNormalization of ( 1, 256, 256, 3) per image.
 # Dataset used :
-- <a href = https://www.kaggle.com/datasets/salader/dogs-vs-cats>Kaggel-Dog vs Cat</a>
+- Prediction for Cat = 0 and Dog = 1
+- New Data given for Validation of prediction = <a href = https://www.kaggle.com/datasets/rajatyd/testing-data-images>New Data</a> 
+- for Traning and Testing = <a href = https://www.kaggle.com/datasets/salader/dogs-vs-cats>Kaggel-Dog vs Cat</a>
