@@ -5,9 +5,14 @@
 - CNNs are particularly useful for finding patterns in images to recognize objects, classes, and categories.
 - They can also be quite effective for classifying audio, time-series, and signal data.
 - # About This CNN Model :
+- loss: 0.1275
+- Accuracy: 0.9452
+- val_loss: 0.6127
+- val_accuracy: 0.8090
+- Note : Previuos stats may change depending on your model training environment. 
 - # CNN part :
-- Number of Convolutional layers used = 3, activation = "Relu" 
-- Number of Pooling layers  = 3
+- Number of Convolutional layers used = 3, activation = "Relu", strides= 2, padding = "Valid"
+- Number of Pooling layers  = 3, strides = 2, padding = "Valid"
 - Number of flatten layer = 1
 - # ANN part :
 - One dense layer with 128 Neurons and Relu activation.
